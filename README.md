@@ -38,7 +38,7 @@ SkillSwap is a modern web application designed to facilitate peer-to-peer skill 
 1.  **Clone the repository**
     ```bash
     git clone git@github.com:Boris-Kost/SkillSwapApp.git
-    cd skill-swap
+    cd SkillSwapApp
     ```
 
 2.  **Install dependencies**
