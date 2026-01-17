@@ -102,10 +102,12 @@ export const DashboardPage = () => {
                                     </div>
                                     <div className="flex-1">
                                         <div className="flex justify-between items-start">
-                                            <h4 className="font-bold text-gray-900 bg-transparent">{session.skillId}</h4>
+                                            <h4 className="font-bold text-gray-900 bg-transparent">{session.id}</h4>
                                             <Badge variant="warning">Upcoming</Badge>
                                         </div>
-                                        <p className="text-sm text-gray-500">with {session.teacherId === user.id ? 'Student' : 'Mentor'}</p>
+                                        <p className="text-sm text-gray-500">
+                                            with {session.teacher.id === user.id ? 'Student' : 'Mentor'}
+                                        </p>
                                     </div>
                                     <Button size="sm" variant="outline">Join</Button>
                                 </Card>

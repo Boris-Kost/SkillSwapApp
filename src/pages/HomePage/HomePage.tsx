@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpen, Users, Clock, Award } from 'lucide-react';
+import { Users, Clock, Award } from 'lucide-react';
 import { Button } from '../../components/ui/Button';
 
 export const HomePage = () => {
